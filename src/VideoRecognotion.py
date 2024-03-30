@@ -34,5 +34,7 @@ class VideoRecognition():
         cv2.destroyAllWindows()
         cap.release()
 
+
+
 if __name__ == "__main__":
     VideoRecognition.LineRecognotion(0)
